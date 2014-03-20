@@ -165,36 +165,37 @@
                 </div>
 		    </div>
 		    <!--==============================Slider=================================-->
+            <div id="sliderMain">
 		    <div id="sliderContainer">
-				<div id="Slides">
-					<div id="slide1" class="slide">
+				<div id="mySlides">
+				    <div id="slide1" class="slide">
 					<img src="Images/Slider/1.jpg" alt=""/>
 					<div class="slideContent">
 						<h3>You Asked, jFlow Delivered</h3>
 						<p>It's all about the Community and giving back.  To keep with this tradition, jFlow Plus now has more of the features you want.</p>
 					</div>
-					</div>
-					<div id="slide2" class="slide"> 
+				    </div>
+				    <div id="slide2" class="slide"> 
 					<img src="Images/Slider/2.jpg" alt=""/>
 					<div class="slideContent">
-						<h3>W3C Valid</h3>
-						<p>Are you a stickler for writing valid code?  So is jFlow.  Run this puppy through W3C's validator to see it pass the test!</p>
+					    <h3>W3C Valid</h3>
+					    <p>Are you a stickler for writing valid code?  So is jFlow.  Run this puppy through W3C's validator to see it pass the test!</p>
 					</div>
-					</div>
-					<div id="slide3" class="slide">
+				    </div>
+				    <div id="slide3" class="slide">
 					<img src="Images/Slider/3.jpg"  alt=""/>
 					<div class="slideContent">
-						<h3>Frequent Code Updates</h3>
-						<p>This slider is actively developed and used by thousands of websites.  More features coming soon including more effects and options.</p>
+					    <h3>Frequent Code Updates</h3>
+					    <p>This slider is actively developed and used by thousands of websites.  More features coming soon including more effects and options.</p>
 					</div>
-					</div>
-					<div id="slide4" class="slide"> 
+				    </div>
+				    <div id="slide4" class="slide"> 
 					<img src="Images/Slider/4.jpg" alt=""/>
 					<div class="slideContent">
-						<h3>Notice the Slide Navigation?</h3>
-						<p>That's a new feature.  Click on the paging buttons in the top-right to quickly jump to any jFlow slide number.</p>
+					    <h3>Notice the Slide Navigation?</h3>
+					    <p>That's a new feature.  Click on the paging buttons in the top-right to quickly jump to any jFlow slide number.</p>
 					</div>
-					</div>
+				    </div>
 				</div>
 				<div id="myController"> 
 					<span class="jFlowControl"></span> 
@@ -205,6 +206,8 @@
 				<div class="jFlowPrev"></div>
 				<div class="jFlowNext"></div>
 			</div>
+            </div>
+            <!--==============================Contenido=================================-->
             <div class='content'>
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                  
@@ -212,7 +215,7 @@
             </div>
             <!--==============================footer=================================-->
 	        <footer>
-		        Copyright &copy 2014  <a href="Default.aspx">ViewCar</a> - Todos los Derechos Reservados
+		        Copyright &copy 2014  <a href="Index.aspx">ViewCar</a> - Todos los Derechos Reservados
 	        </footer>	
         </div>
     </form>

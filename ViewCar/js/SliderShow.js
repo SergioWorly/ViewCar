@@ -6,7 +6,7 @@
 
 			slideWrapper : "#jFlowSlider", // must be id, use # sign
 
-			slides: "#Slides",  // the div where all your sliding divs are nested in
+			slides: "#mySlides",  // the div where all your sliding divs are nested in
 
 			selectedWrapper: "jFlowSelected",  // just pure text, no sign
 			

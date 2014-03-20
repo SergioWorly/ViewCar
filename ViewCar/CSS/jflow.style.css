@@ -13,31 +13,34 @@ Date: July 29, 2010
 
 #sliderContainer  
 {
-    width: 900px; 
+    width: 990px; 
     height: 300px; 
-    position: relative;
-    z-index: 1;    
+    position: absolute; 
+    margin: 0 auto; 
+    z-index: 0;    
  }
 
 .slideContent   
 {
-    background:url("../Images/Slider/contentBg.png") repeat scroll 0 0 transparent; /*444444444*/
+    background:url("../Images/Slider/contentBg.png") repeat scroll 0 0 transparent; 
     position: absolute; 
+    bottom:0px; 
+    right:0px;
+    padding: 10px; 
     width: 970px; 
 }
 
-.slides h3   
+.slide h3   
 {
     font: 26px/1em 'Rokkitt', serif; 
     color: #FFF;  
     margin: 0 0 5px 0; 
 }
 
-.slides p  
-{
-    font-size: 14px; 
-    color: #FFF;
-}
+.slide p { font-size: 14px; 
+           color: #FFF; 
+           margin: 0; 
+         }
 
 .jFlowSlideContainer { overflow: hidden; }
 
@@ -46,7 +49,7 @@ Date: July 29, 2010
     color: #F90; 
     text-decoration: none; 
     font-style: italic;
-}
+     }
 
 .jFlowSlideContainer a:hover { text-decoration: none; }
 
@@ -81,11 +84,11 @@ Date: July 29, 2010
 
 /* controller pagination */
 
-#Controller 
+#myController 
 {
     position: absolute;
-    top: 5px;
-}
+    top: 5px; 
+    right: 5px; }
 
 .jFlowControl  
 {

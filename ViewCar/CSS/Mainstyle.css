@@ -22,11 +22,19 @@ header
 .Menu
 	{
 	 width		: 990px; 
-	 height		: 29px;
+	 height		: 44px;
 	 box-shadow		: 0px 0px 5px 0px #000000;
 	 position		: relative;
+	 z-index: 500;
 	}
 	
+ #sliderMain
+ {
+    width           : 990px; 
+    height          : 300px;
+    position		: relative;
+ }
+ 
 .formularioBusqueda
 	{
 	 width			: 420px; 

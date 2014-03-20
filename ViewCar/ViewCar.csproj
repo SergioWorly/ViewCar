@@ -54,16 +54,16 @@
     <Content Include="CSS\jflow.style.css" />
     <Content Include="CSS\Mainstyle.css" />
     <Content Include="CSS\styles.css" />
-    <Content Include="Images\Slider\1.jpg" />
-    <Content Include="Images\Slider\2.jpg" />
-    <Content Include="Images\Slider\3.jpg" />
-    <Content Include="Images\Slider\4.jpg" />
-    <Content Include="Images\Slider\arrows.png" />
-    <Content Include="Images\Slider\arrows2.png" />
-    <Content Include="Images\Slider\bullet.png" />
-    <Content Include="Images\Slider\contentBg.png" />
-    <Content Include="Images\Slider\left.png" />
-    <Content Include="Images\Slider\right.png" />
+    <Content Include="Images\slider\1.jpg" />
+    <Content Include="Images\slider\2.jpg" />
+    <Content Include="Images\slider\3.jpg" />
+    <Content Include="Images\slider\4.jpg" />
+    <Content Include="Images\slider\arrows.png" />
+    <Content Include="Images\slider\arrows2.png" />
+    <Content Include="Images\slider\bullet.png" />
+    <Content Include="Images\slider\contentBg.png" />
+    <Content Include="Images\slider\left.png" />
+    <Content Include="Images\slider\right.png" />
     <Content Include="IMG\ViewCarLogo.png" />
     <Content Include="Index.aspx" />
     <Content Include="js\jflow.plus.js" />
@@ -98,7 +98,7 @@
     <Content Include="ViewCar.Master" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\Slider\arrows2.psd" />
+    <None Include="Images\slider\arrows2.psd" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
